@@ -20,14 +20,17 @@ strong {
 }
 
 .intro-chunk {
+  padding-inline: 16px;
   width: 640px;
   margin: auto;
 }
 
 header {
-  padding-left: 16px;
-  padding-right: 16px;
   padding-bottom: 32px;
+}
+
+header p {
+  width: 320px;
 }
 
 main section {
@@ -38,9 +41,6 @@ main section {
   border-color: hsl(0deg, 0%, 40%);
 }
 
-header p {
-  width: 320px;
-}
 
 .card {
   background-color: white;
@@ -57,7 +57,7 @@ header p {
 
 .indented-heading {
   padding-block: 8px;
-  padding-inline: 32px;
+  padding-inline: 24px;
   max-width: fit-content;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: solid;
